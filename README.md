@@ -2,7 +2,7 @@
 
 ## 프로젝트 소개
 
-llama2기반의 beomi/llama-2-ko-7b모델을 4bit양자화를 통해경량화하고,vscode의 단축키 정보로 파인튜닝한 커스텀 모델 생성
+llama2기반의 beomi/llama-2-ko-7b모델을 4bit양자화를 통해 경량화하고, vscode의 단축키 정보로 파인튜닝한 커스텀 모델 생성
 
 ## Requirements
 
