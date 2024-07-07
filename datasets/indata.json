@@ -1,0 +1,150 @@
+{"inputs": "vscode에서 행 삭제를 하려면 어떻게 해야해?", "response": "vscode에서 행 삭제는 기본 편집동작이며, ctrl+X으로 수행할 수 있습니다. 명령 ID는 editor.action.clipboardCutAction입니다."}
+{"inputs": "vscode에서 행 복사를 하려면 어떻게 해야해?", "response": "vscode에서 행 복사는 기본 편집동작이며, ctrl+C으로 수행할 수 있습니다. 명령 ID는 editor.action.clipboardCopyAction입니다."}
+{"inputs": "vscode에서 행 삭제를 하려면 어떻게 해야해?", "response": "vscode에서 행 삭제는 기본 편집동작이며, ctrl+shift+k으로 수행할 수 있습니다. 명령 ID는 editor.action.deleteLines입니다."}
+{"inputs": "vscode에서 아래에 행 삽입을 하려면 어떻게 해야해?", "response": "vscode에서 아래에 행 삽입은 기본 편집동작이며, ctrl+Enter으로 수행할 수 있습니다. 명령 ID는 editor.action.insertLineAfter입니다."}
+{"inputs": "vscode에서 위에 행 삽입을 하려면 어떻게 해야해?", "response": "vscode에서 위에 행 삽입은 기본 편집동작이며, ctrl+shift+Enter으로 수행할 수 있습니다. 명령 ID는 editor.action.insertLineBefore입니다."}
+{"inputs": "vscode에서 행을 아래로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 행을 아래로 이동은 기본 편집동작이며, alt+Down으로 수행할 수 있습니다. 명령 ID는 editor.action.moveLinesDownAction입니다."}
+{"inputs": "vscode에서 행을 위로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 행을 위로 이동은 기본 편집동작이며, alt+Up으로 수행할 수 있습니다. 명령 ID는 editor.action.moveLinesUpAction입니다."}
+{"inputs": "vscode에서 위에 행 복사 추가를 하려면 어떻게 해야해?", "response": "vscode에서 위에 행 복사 추가는 기본 편집동작이며, shift+alt+Down으로 수행할 수 있습니다. 명령 ID는 editor.action.copyLinesDownAction입니다."}
+{"inputs": "vscode에서 아래에 행 복사 추가를 하려면 어떻게 해야해?", "response": "vscode에서 아래에 행 복사 추가는 기본 편집동작이며, shift+alt+Up으로 수행할 수 있습니다. 명령 ID는 editor.action.copyLinesUpAction입니다."}
+{"inputs": "vscode에서 다음 선택 찾기를 하려면 어떻게 해야해?", "response": "vscode에서 다음 선택 찾기는 기본 편집동작이며, ctrl+d으로 수행할 수 있습니다. 명령 ID는 editor.action.addSelectionToNextFindMatch입니다."}
+{"inputs": "vscode에서 마지막 선택 항목을 다음 찾기 항목으로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 마지막 선택 항목을 다음 찾기 항목으로 이동은 기본 편집동작이며, ctrl+k ctrl+d으로 수행할 수 있습니다. 명령 ID는 editor.action.moveSelectionToNextFindMatch입니다."}
+{"inputs": "vscode에서 마지막 커서 작업 실행 취소를 하려면 어떻게 해야해?", "response": "vscode에서 마지막 커서 작업 실행 취소는 기본 편집동작이며, ctrl+u으로 수행할 수 있습니다. 명령 ID는 cursorUndo입니다."}
+{"inputs": "vscode에서 선택한 각 줄 끝의 커서 삽입을 하려면 어떻게 해야해?", "response": "vscode에서 선택한 각 줄 끝의 커서 삽입은 기본 편집동작이며, shift+alt+i으로 수행할 수 있습니다. 명령 ID는 editor.action.insertCursorAtEndOfEachLineSelected입니다."}
+{"inputs": "vscode에서 현재 선택 항목을 모두 선택을 하려면 어떻게 해야해?", "response": "vscode에서 현재 선택 항목을 모두 선택은 기본 편집동작이며, ctrl+shift+l으로 수행할 수 있습니다. 명령 ID는 editor.action.selectHighlights입니다."}
+{"inputs": "vscode에서 현재 단어의 모든 항목 선택을 하려면 어떻게 해야해?", "response": "vscode에서 현재 단어의 모든 항목 선택은 기본 편집동작이며, ctrl+f2으로 수행할 수 있습니다. 명령 ID는 editor.action.changeAll입니다."}
+{"inputs": "vscode에서 현재 행 선택을 하려면 어떻게 해야해?", "response": "vscode에서 현재 행 선택은 기본 편집동작이며, ctrl+i으로 수행할 수 있습니다. 명령 ID는 expandLineSelection입니다."}
+{"inputs": "vscode에서 커서를 아래에 추가를 하려면 어떻게 해야해?", "response": "vscode에서 커서를 아래에 추가는 기본 편집동작이며, ctrl+alt+Down으로 수행할 수 있습니다. 명령 ID는 editor.action.insertCursorBelow입니다."}
+{"inputs": "vscode에서 커서를 위에 추가를 하려면 어떻게 해야해?", "response": "vscode에서 커서를 위에 추가는 기본 편집동작이며, ctrl+alt+Up으로 수행할 수 있습니다. 명령 ID는 editor.action.insertCursorAbove입니다."}
+{"inputs": "vscode에서 일치하는 대괄호로 건너 뛰기를 하려면 어떻게 해야해?", "response": "vscode에서 일치하는 대괄호로 건너 뛰기는 기본 편집동작이며, ctrl+shift+\\으로 수행할 수 있습니다. 명령 ID는 editor.action.jumpToBracket입니다."}
+{"inputs": "vscode에서 라인 들여쓰기를 하려면 어떻게 해야해?", "response": "vscode에서 라인 들여쓰기는 기본 편집동작이며, ctrl +]으로 수행할 수 있습니다. 명령 ID는 editor.action.indentLines입니다."}
+{"inputs": "vscode에서 라인 내어쓰기를 하려면 어떻게 해야해?", "response": "vscode에서 라인 내어쓰기는 기본 편집동작이며, ctrl+[으로 수행할 수 있습니다. 명령 ID는 editor.action.outdentLines입니다."}
+{"inputs": "vscode에서 행의 시작으로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 행의 시작으로 이동은 기본 편집동작이며, Home으로 수행할 수 있습니다. 명령 ID는 cursorHome입니다."}
+{"inputs": "vscode에서 행의 끝으로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 행의 끝으로 이동은 기본 편집동작이며, End으로 수행할 수 있습니다. 명령 ID는 cursorEnd입니다."}
+{"inputs": "vscode에서 파일 끝으로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 파일 끝으로 이동은 기본 편집동작이며, ctrl+End으로 수행할 수 있습니다. 명령 ID는 cursorBottom입니다."}
+{"inputs": "vscode에서 파일 시작으로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 파일 시작으로 이동은 기본 편집동작이며, ctrl+Home으로 수행할 수 있습니다. 명령 ID는 cursorTop입니다."}
+{"inputs": "vscode에서 스크롤 다운을 하려면 어떻게 해야해?", "response": "vscode에서 스크롤 다운은 기본 편집동작이며, ctrl+Down으로 수행할 수 있습니다. 명령 ID는 scrollLineDown입니다."}
+{"inputs": "vscode에서 스크롤 업을 하려면 어떻게 해야해?", "response": "vscode에서 스크롤 업은 기본 편집동작이며, ctrl+Up으로 수행할 수 있습니다. 명령 ID는 scrollLineUp입니다."}
+{"inputs": "vscode에서 아래로 페이지 스크롤을 하려면 어떻게 해야해?", "response": "vscode에서 아래로 페이지 스크롤은 기본 편집동작이며, alt+PageDown으로 수행할 수 있습니다. 명령 ID는 scrollPageDown입니다."}
+{"inputs": "vscode에서 페이지 위로 스크롤을 하려면 어떻게 해야해?", "response": "vscode에서 페이지 위로 스크롤은 기본 편집동작이며, alt+PageUp으로 수행할 수 있습니다. 명령 ID는 scrollPageUp입니다."}
+{"inputs": "vscode에서 영역 접기를 하려면 어떻게 해야해?", "response": "vscode에서 영역 접기는 기본 편집동작이며, ctrl+shift+[으로 수행할 수 있습니다. 명령 ID는 editor.fold입니다."}
+{"inputs": "vscode에서 영역 펼치기를 하려면 어떻게 해야해?", "response": "vscode에서 영역 펼치기는 기본 편집동작이며, ctrl+shift+]으로 수행할 수 있습니다. 명령 ID는 editor.unfold입니다."}
+{"inputs": "vscode에서 현재 영역 접기를 하려면 어떻게 해야해?", "response": "vscode에서 현재 영역 접기는 기본 편집동작이며, ctrl+k ctrl+[으로 수행할 수 있습니다. 명령 ID는 editor.foldRecursively입니다."}
+{"inputs": "vscode에서 현재 영역 펼치기를 하려면 어떻게 해야해?", "response": "vscode에서 현재 영역 펼치기는 기본 편집동작이며, ctrl+k ctrl+]으로 수행할 수 있습니다. 명령 ID는 editor.unfoldRecursively입니다."}
+{"inputs": "vscode에서 모든 영역 접기를 하려면 어떻게 해야해?", "response": "vscode에서 모든 영역 접기는 기본 편집동작이며, ctrl+k ctrl+0으로 수행할 수 있습니다. 명령 ID는 editor.foldAll입니다."}
+{"inputs": "vscode에서 모든 영역 펼치기를 하려면 어떻게 해야해?", "response": "vscode에서 모든 영역 펼치기는 기본 편집동작이며, ctrl+k ctrl+j으로 수행할 수 있습니다. 명령 ID는 editor.unfoldAll입니다."}
+{"inputs": "vscode에서 행 주석 추가를 하려면 어떻게 해야해?", "response": "vscode에서 행 주석 추가는 기본 편집동작이며, ctrl+k ctrl+c으로 수행할 수 있습니다. 명령 ID는 editor.action.addCommentLine입니다."}
+{"inputs": "vscode에서 행 주석 제거를 하려면 어떻게 해야해?", "response": "vscode에서 행 주석 제거는 기본 편집동작이며, ctrl+k ctrl+u으로 수행할 수 있습니다. 명령 ID는 editor.action.removeCommentLine입니다."}
+{"inputs": "vscode에서 주석 토글을 하려면 어떻게 해야해?", "response": "vscode에서 주석 토글은 기본 편집동작이며, ctrl+/으로 수행할 수 있습니다. 명령 ID는 editor.action.commentLine입니다."}
+{"inputs": "vscode에서 커서위치에 주석 토글을 하려면 어떻게 해야해?", "response": "vscode에서 커서위치에 주석 토글은 기본 편집동작이며, shift+alt+a으로 수행할 수 있습니다. 명령 ID는 editor.action.blockComment입니다."}
+{"inputs": "vscode에서 찾기를 하려면 어떻게 해야해?", "response": "vscode에서 찾기는 기본 편집동작이며, ctrl+f으로 수행할 수 있습니다. 명령 ID는 actions.find입니다."}
+{"inputs": "vscode에서 바꾸기를 하려면 어떻게 해야해?", "response": "vscode에서 바꾸기는 기본 편집동작이며, ctrl+h으로 수행할 수 있습니다. 명령 ID는 editor.action.startFindReplaceAction입니다."}
+{"inputs": "vscode에서 다음 찾기를 하려면 어떻게 해야해?", "response": "vscode에서 다음 찾기는 기본 편집동작이며, f3으로 수행할 수 있습니다. 명령 ID는 editor.action.nextMatchFindAction입니다."}
+{"inputs": "vscode에서 이전 찾기를 하려면 어떻게 해야해?", "response": "vscode에서 이전 찾기는 기본 편집동작이며, shift+f3으로 수행할 수 있습니다. 명령 ID는 editor.action.previousMatchFindAction입니다."}
+{"inputs": "vscode에서 모든 일치 항목을 선택을 하려면 어떻게 해야해?", "response": "vscode에서 모든 일치 항목을 선택은 기본 편집동작이며, alt+Enter으로 수행할 수 있습니다. 명령 ID는 editor.action.selectAllMatches입니다."}
+{"inputs": "vscode에서 대소 문자 찾기를 토글을 하려면 어떻게 해야해?", "response": "vscode에서 대소 문자 찾기를 토글은 기본 편집동작이며, alt+c으로 수행할 수 있습니다. 명령 ID는 toggleFindCaseSensitive입니다."}
+{"inputs": "vscode에서 정규식 찾기 전환을 하려면 어떻게 해야해?", "response": "vscode에서 정규식 찾기 전환은 기본 편집동작이며, alt+r으로 수행할 수 있습니다. 명령 ID는 toggleFindRegex입니다."}
+{"inputs": "vscode에서 전체 단어 찾기 토글을 하려면 어떻게 해야해?", "response": "vscode에서 전체 단어 찾기 토글은 기본 편집동작이며, alt+w으로 수행할 수 있습니다. 명령 ID는 toggleFindWholeWord입니다."}
+{"inputs": "vscode에서 포커스 설정을 위해 Tab 키 사용 토글을 하려면 어떻게 해야해?", "response": "vscode에서 포커스 설정을 위해 Tab 키 사용 토글은 기본 편집동작이며, ctrl+m으로 수행할 수 있습니다. 명령 ID는 editor.action.toggleTabFocusMode입니다."}
+{"inputs": "vscode에서 단어 감싸기 토글을 하려면 어떻게 해야해?", "response": "vscode에서 단어 감싸기 토글은 기본 편집동작이며, alt+z으로 수행할 수 있습니다. 명령 ID는 editor.action.toggleWordWrap입니다."}
+{"inputs": "vscode에서 트리거 제안을 하려면 어떻게 해야해?", "response": "vscode에서 트리거 제안은 언어 편집동작이며, ctrl+스페이스바으로 수행할 수 있습니다. 명령 ID는 editor.action.triggerSuggest입니다."}
+{"inputs": "vscode에서 트리거 매개 변수 힌트를 하려면 어떻게 해야해?", "response": "vscode에서 트리거 매개 변수 힌트는 언어 편집동작이며, ctrl+shift+스페이스바으로 수행할 수 있습니다. 명령 ID는 editor.action.triggerParameterHints입니다."}
+{"inputs": "vscode에서 문서 서식 지정을 하려면 어떻게 해야해?", "response": "vscode에서 문서 서식 지정은 언어 편집동작이며, shift+alt+f으로 수행할 수 있습니다. 명령 ID는 editor.action.formatDocument입니다."}
+{"inputs": "vscode에서 형식 선택을 하려면 어떻게 해야해?", "response": "vscode에서 형식 선택은 언어 편집동작이며, ctrl+k ctrl+f으로 수행할 수 있습니다. 명령 ID는 editor.action.formatSelection입니다."}
+{"inputs": "vscode에서 정의로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 정의로 이동은 언어 편집동작이며, f12으로 수행할 수 있습니다. 명령 ID는 editor.action.goToDeclaration입니다."}
+{"inputs": "vscode에서 호버 표시를 하려면 어떻게 해야해?", "response": "vscode에서 호버 표시는 언어 편집동작이며, ctrl+k ctrl+i으로 수행할 수 있습니다. 명령 ID는 editor.action.showHover입니다."}
+{"inputs": "vscode에서 키워드 정의를 하려면 어떻게 해야해?", "response": "vscode에서 키워드 정의는 언어 편집동작이며, alt+f12으로 수행할 수 있습니다. 명령 ID는 editor.action.previewDeclaration입니다."}
+{"inputs": "vscode에서 키워드 정의 우측에 열기를 하려면 어떻게 해야해?", "response": "vscode에서 키워드 정의 우측에 열기는 언어 편집동작이며, ctrl+k f12으로 수행할 수 있습니다. 명령 ID는 editor.action.openDeclarationToTheSide입니다."}
+{"inputs": "vscode에서 빠른 수정을 하려면 어떻게 해야해?", "response": "vscode에서 빠른 수정은 언어 편집동작이며, ctrl+.으로 수행할 수 있습니다. 명령 ID는 editor.action.quickFix입니다."}
+{"inputs": "vscode에서 참조 표시를 하려면 어떻게 해야해?", "response": "vscode에서 참조 표시는 언어 편집동작이며, shift+f12으로 수행할 수 있습니다. 명령 ID는 editor.action.referenceSearch.trigger입니다."}
+{"inputs": "vscode에서 심볼 이름 바꾸기를 하려면 어떻게 해야해?", "response": "vscode에서 심볼 이름 바꾸기는 언어 편집동작이며, f2으로 수행할 수 있습니다. 명령 ID는 editor.action.rename입니다."}
+{"inputs": "vscode에서 다음 값으로 바꾸기를 하려면 어떻게 해야해?", "response": "vscode에서 다음 값으로 바꾸기는 언어 편집동작이며, ctrl+shift+.으로 수행할 수 있습니다. 명령 ID는 editor.action.inPlaceReplace.down입니다."}
+{"inputs": "vscode에서 이전 값으로 바꾸기를 하려면 어떻게 해야해?", "response": "vscode에서 이전 값으로 바꾸기는 언어 편집동작이며, ctrl+shift+,으로 수행할 수 있습니다. 명령 ID는 editor.action.inPlaceReplace.up입니다."}
+{"inputs": "vscode에서 선택 확장을 하려면 어떻게 해야해?", "response": "vscode에서 선택 확장은 언어 편집동작이며, shift+alt+오른쪽으로 수행할 수 있습니다. 명령 ID는 editor.action.smartSelect.grow입니다."}
+{"inputs": "vscode에서 선택 축소를 하려면 어떻게 해야해?", "response": "vscode에서 선택 축소는 언어 편집동작이며, shift+alt+왼쪽으로 수행할 수 있습니다. 명령 ID는 editor.action.smartSelect.shrink입니다."}
+{"inputs": "vscode에서 공백 제거를 하려면 어떻게 해야해?", "response": "vscode에서 공백 제거는 언어 편집동작이며, ctrl+k ctrl+x으로 수행할 수 있습니다. 명령 ID는 editor.action.trimTrailingWhitespace입니다."}
+{"inputs": "vscode에서 언어 모드 변경을 하려면 어떻게 해야해?", "response": "vscode에서 언어 모드 변경은 언어 편집동작이며, ctrl+km으로 수행할 수 있습니다. 명령 ID는 workbench.action.editor.changeLanguageMode입니다."}
+{"inputs": "vscode에서 모든 기호 표시를 하려면 어떻게 해야해?", "response": "vscode에서 모든 기호 표시는 네비게이션동작이며, ctrl+t으로 수행할 수 있습니다. 명령 ID는 workbench.action.showAllSymbols입니다."}
+{"inputs": "vscode에서 행으로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 행으로 이동은 네비게이션동작이며, ctrl+g으로 수행할 수 있습니다. 명령 ID는 workbench.action.gotoLine입니다."}
+{"inputs": "vscode에서 빠른 열기, 파일로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 빠른 열기, 파일로 이동은 네비게이션동작이며, ctrl+p으로 수행할 수 있습니다. 명령 ID는 workbench.action.quickOpen입니다."}
+{"inputs": "vscode에서 기호로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 기호로 이동은 네비게이션동작이며, ctrl+shift+o으로 수행할 수 있습니다. 명령 ID는 workbench.action.gotoSymbol입니다."}
+{"inputs": "vscode에서 오류 보기를 하려면 어떻게 해야해?", "response": "vscode에서 오류 보기는 네비게이션동작이며, ctrl+shift+m으로 수행할 수 있습니다. 명령 ID는 workbench.actions.view.problems입니다."}
+{"inputs": "vscode에서 다음 오류 또는 경고로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 다음 오류 또는 경고로 이동은 네비게이션동작이며, f8으로 수행할 수 있습니다. 명령 ID는 editor.action.marker.next입니다."}
+{"inputs": "vscode에서 이전 오류 또는 경고로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 이전 오류 또는 경고로 이동은 네비게이션동작이며, shift+f8으로 수행할 수 있습니다. 명령 ID는 editor.action.marker.prev입니다."}
+{"inputs": "vscode에서 모든 명령 표시를 하려면 어떻게 해야해?", "response": "vscode에서 모든 명령 표시는 네비게이션동작이며, ctrl+shift+p으로 수행할 수 있습니다. 명령 ID는 workbench.action.showCommands입니다."}
+{"inputs": "vscode에서 편집기 기록 탐색을 하려면 어떻게 해야해?", "response": "vscode에서 편집기 기록 탐색은 네비게이션동작이며, ctrl+shift+Tab으로 수행할 수 있습니다. 명령 ID는 workbench.action.openPreviousRecentlyUsedEditorInGroup입니다."}
+{"inputs": "vscode에서 뒤로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 뒤로 이동은 네비게이션동작이며, alt+왼쪽으로 수행할 수 있습니다. 명령 ID는 workbench.action.navigateBack입니다."}
+{"inputs": "vscode에서 앞으로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 앞으로 이동은 네비게이션동작이며, alt+오른쪽으로 수행할 수 있습니다. 명령 ID는 workbench.action.navigateForward입니다."}
+{"inputs": "vscode에서 새창 열기를 하려면 어떻게 해야해?", "response": "vscode에서 새창 열기는 에디터윈도우 관리동작이며, ctrl+shift+n으로 수행할 수 있습니다. 명령 ID는 workbench.action.newWindow입니다."}
+{"inputs": "vscode에서 창 닫기를 하려면 어떻게 해야해?", "response": "vscode에서 창 닫기는 에디터윈도우 관리동작이며, ctrl+w으로 수행할 수 있습니다. 명령 ID는 workbench.action.closeWindow입니다."}
+{"inputs": "vscode에서 편집기 닫기를 하려면 어떻게 해야해?", "response": "vscode에서 편집기 닫기는 에디터윈도우 관리동작이며, ctrl+f4으로 수행할 수 있습니다. 명령 ID는 workbench.action.closeActiveEditor입니다."}
+{"inputs": "vscode에서 폴더 닫기를 하려면 어떻게 해야해?", "response": "vscode에서 폴더 닫기는 에디터윈도우 관리동작이며, ctrl+kf으로 수행할 수 있습니다. 명령 ID는 workbench.action.closeFolder입니다."}
+{"inputs": "vscode에서 편집기 나누기를 하려면 어떻게 해야해?", "response": "vscode에서 편집기 나누기는 에디터윈도우 관리동작이며, ctrl+\\으로 수행할 수 있습니다. 명령 ID는 workbench.action.splitEditor입니다."}
+{"inputs": "vscode에서 첫번째 편집기 그룹에 초점 맞추기를 하려면 어떻게 해야해?", "response": "vscode에서 첫번째 편집기 그룹에 초점 맞추기는 에디터윈도우 관리동작이며, ctrl+1으로 수행할 수 있습니다. 명령 ID는 workbench.action.focusFirstEditorGroup입니다."}
+{"inputs": "vscode에서 두번째 편집기 그룹에 초점 맞추기를 하려면 어떻게 해야해?", "response": "vscode에서 두번째 편집기 그룹에 초점 맞추기는 에디터윈도우 관리동작이며, ctrl+2으로 수행할 수 있습니다. 명령 ID는 workbench.action.focusSecondEditorGroup입니다."}
+{"inputs": "vscode에서 세번째 편집기 그룹에 초점 맞추기를 하려면 어떻게 해야해?", "response": "vscode에서 세번째 편집기 그룹에 초점 맞추기는 에디터윈도우 관리동작이며, ctrl+3으로 수행할 수 있습니다. 명령 ID는 workbench.action.focusThirdEditorGroup입니다."}
+{"inputs": "vscode에서 왼쪽 편집기 그룹에 초점 맞추기를 하려면 어떻게 해야해?", "response": "vscode에서 왼쪽 편집기 그룹에 초점 맞추기는 에디터윈도우 관리동작이며, ctrl+k ctrl+왼쪽으로 수행할 수 있습니다. 명령 ID는 workbench.action.focusPreviousGroup입니다."}
+{"inputs": "vscode에서 오른쪽 편집기 그룹에 초점 맞추기를 하려면 어떻게 해야해?", "response": "vscode에서 오른쪽 편집기 그룹에 초점 맞추기는 에디터윈도우 관리동작이며, ctrl+k ctrl+오른쪽으로 수행할 수 있습니다. 명령 ID는 workbench.action.focusNextGroup입니다."}
+{"inputs": "vscode에서 왼쪽으로 편집기 이동을 하려면 어떻게 해야해?", "response": "vscode에서 왼쪽으로 편집기 이동은 에디터윈도우 관리동작이며, ctrl+shift+PageUp으로 수행할 수 있습니다. 명령 ID는 workbench.action.moveEditorLeftInGroup입니다."}
+{"inputs": "vscode에서 오른쪽으로 편집기 이동을 하려면 어떻게 해야해?", "response": "vscode에서 오른쪽으로 편집기 이동은 에디터윈도우 관리동작이며, ctrl+shift+PageDown으로 수행할 수 있습니다. 명령 ID는 workbench.action.moveEditorRightInGroup입니다."}
+{"inputs": "vscode에서 활성 편집기 그룹을 왼쪽으로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 활성 편집기 그룹을 왼쪽으로 이동은 에디터윈도우 관리동작이며, ctrl+k 왼쪽으로 수행할 수 있습니다. 명령 ID는 workbench.action.moveActiveEditorGroupLeft입니다."}
+{"inputs": "vscode에서 활성 편집기 그룹을 오른쪽으로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 활성 편집기 그룹을 오른쪽으로 이동은 에디터윈도우 관리동작이며, ctrl+k 오른쪽으로 수행할 수 있습니다. 명령 ID는 workbench.action.moveActiveEditorGroupRight입니다."}
+{"inputs": "vscode에서 편집기를 다음 그룹으로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 편집기를 다음 그룹으로 이동은 에디터윈도우 관리동작이며, ctrl+alt+오른쪽으로 수행할 수 있습니다. 명령 ID는 workbench.action.moveEditorToNextGroup입니다."}
+{"inputs": "vscode에서 편집기를 이전 그룹으로 이동을 하려면 어떻게 해야해?", "response": "vscode에서 편집기를 이전 그룹으로 이동은 에디터윈도우 관리동작이며, ctrl+alt+왼쪽으로 수행할 수 있습니다. 명령 ID는 workbench.action.moveEditorToPreviousGroup입니다."}
+{"inputs": "vscode에서 새탭 열기를 하려면 어떻게 해야해?", "response": "vscode에서 새탭 열기는 파일 관리동작이며, ctrl+n으로 수행할 수 있습니다. 명령 ID는 workbench.action.files.newUntitledFile입니다."}
+{"inputs": "vscode에서 파일 열기를 하려면 어떻게 해야해?", "response": "vscode에서 파일 열기는 파일 관리동작이며, ctrl+o으로 수행할 수 있습니다. 명령 ID는 workbench.action.files.openFile입니다."}
+{"inputs": "vscode에서 저장을 하려면 어떻게 해야해?", "response": "vscode에서 저장은 파일 관리동작이며, ctrl+s으로 수행할 수 있습니다. 명령 ID는 workbench.action.files.save입니다."}
+{"inputs": "vscode에서 모두 저장을 하려면 어떻게 해야해?", "response": "vscode에서 모두 저장은 파일 관리동작이며, ctrl+ks으로 수행할 수 있습니다. 명령 ID는 workbench.action.files.saveAll입니다."}
+{"inputs": "vscode에서 다른 이름으로 저장을 하려면 어떻게 해야해?", "response": "vscode에서 다른 이름으로 저장은 파일 관리동작이며, ctrl+shift+s으로 수행할 수 있습니다. 명령 ID는 workbench.action.files.saveAs입니다."}
+{"inputs": "vscode에서 닫기를 하려면 어떻게 해야해?", "response": "vscode에서 닫기는 파일 관리동작이며, ctrl+f4으로 수행할 수 있습니다. 명령 ID는 workbench.action.closeActiveEditor입니다."}
+{"inputs": "vscode에서 그룹 닫기를 하려면 어떻게 해야해?", "response": "vscode에서 그룹 닫기는 파일 관리동작이며, ctrl+kw으로 수행할 수 있습니다. 명령 ID는 workbench.action.closeEditorsInGroup입니다."}
+{"inputs": "vscode에서 모두 닫기를 하려면 어떻게 해야해?", "response": "vscode에서 모두 닫기는 파일 관리동작이며, ctrl+k ctrl+w으로 수행할 수 있습니다. 명령 ID는 workbench.action.closeAllEditors입니다."}
+{"inputs": "vscode에서 닫힌 편집기 다시 열기를 하려면 어떻게 해야해?", "response": "vscode에서 닫힌 편집기 다시 열기는 파일 관리동작이며, ctrl+shift+t으로 수행할 수 있습니다. 명령 ID는 workbench.action.reopenClosedEditor입니다."}
+{"inputs": "vscode에서 계속 열기를 하려면 어떻게 해야해?", "response": "vscode에서 계속 열기는 파일 관리동작이며, ctrl+k Enter으로 수행할 수 있습니다. 명령 ID는 workbench.action.keepEditor입니다."}
+{"inputs": "vscode에서 다음 열기를 하려면 어떻게 해야해?", "response": "vscode에서 다음 열기는 파일 관리동작이며, ctrl+Tab으로 수행할 수 있습니다. 명령 ID는 workbench.action.openNextRecentlyUsedEditorInGroup입니다."}
+{"inputs": "vscode에서 이전 열기를 하려면 어떻게 해야해?", "response": "vscode에서 이전 열기는 파일 관리동작이며, ctrl+shift+Tab으로 수행할 수 있습니다. 명령 ID는 workbench.action.openPreviousRecentlyUsedEditorInGroup입니다."}
+{"inputs": "vscode에서 활성 파일의 경로 복사를 하려면 어떻게 해야해?", "response": "vscode에서 활성 파일의 경로 복사는 파일 관리동작이며, ctrl+kp으로 수행할 수 있습니다. 명령 ID는 workbench.action.files.copyPathOfActiveFile입니다."}
+{"inputs": "vscode에서 현재 파일 탐색기로 열기를 하려면 어떻게 해야해?", "response": "vscode에서 현재 파일 탐색기로 열기는 파일 관리동작이며, ctrl+kr으로 수행할 수 있습니다. 명령 ID는 workbench.action.files.revealActiveFileInWindows입니다."}
+{"inputs": "vscode에서 현재 파일 새 창에 열기를 하려면 어떻게 해야해?", "response": "vscode에서 현재 파일 새 창에 열기는 파일 관리동작이며, ctrl+ko으로 수행할 수 있습니다. 명령 ID는 workbench.action.files.showOpenedFileInNewWindow입니다."}
+{"inputs": "vscode에서 전체 화면 토글을 하려면 어떻게 해야해?", "response": "vscode에서 전체 화면 토글은 디스플레이동작이며, f11으로 수행할 수 있습니다. 명령 ID는 workbench.action.toggleFullScreen입니다."}
+{"inputs": "vscode에서 젠 모드 토글을 하려면 어떻게 해야해?", "response": "vscode에서 젠 모드 토글은 디스플레이동작이며, ctrl+kz으로 수행할 수 있습니다. 명령 ID는 workbench.action.toggleZenMode입니다."}
+{"inputs": "vscode에서 젠 모드에서 나가기를 하려면 어떻게 해야해?", "response": "vscode에서 젠 모드에서 나가기는 디스플레이동작이며, Escape Escape으로 수행할 수 있습니다. 명령 ID는 workbench.action.exitZenMode입니다."}
+{"inputs": "vscode에서 확대를 하려면 어떻게 해야해?", "response": "vscode에서 확대는 디스플레이동작이며, ctrl+=으로 수행할 수 있습니다. 명령 ID는 workbench.action.zoomIn입니다."}
+{"inputs": "vscode에서 축소를 하려면 어떻게 해야해?", "response": "vscode에서 축소는 디스플레이동작이며, ctrl+-으로 수행할 수 있습니다. 명령 ID는 workbench.action.zoomOut입니다."}
+{"inputs": "vscode에서 재설정 확대를 하려면 어떻게 해야해?", "response": "vscode에서 재설정 확대는 디스플레이동작이며, ctrl+Numpad 0으로 수행할 수 있습니다. 명령 ID는 workbench.action.zoomReset입니다."}
+{"inputs": "vscode에서 사이드바 토글을 하려면 어떻게 해야해?", "response": "vscode에서 사이드바 토글은 디스플레이동작이며, ctrl+b으로 수행할 수 있습니다. 명령 ID는 workbench.action.toggleSidebarVisibility입니다."}
+{"inputs": "vscode에서 탐색기 표시 / 포커스 전환을 하려면 어떻게 해야해?", "response": "vscode에서 탐색기 표시 / 포커스 전환은 디스플레이동작이며, ctrl+shift+e으로 수행할 수 있습니다. 명령 ID는 workbench.view.explorer입니다."}
+{"inputs": "vscode에서 검색보기를 하려면 어떻게 해야해?", "response": "vscode에서 검색보기는 디스플레이동작이며, ctrl+shift+f으로 수행할 수 있습니다. 명령 ID는 workbench.view.search입니다."}
+{"inputs": "vscode에서 소스 제어 표시를 하려면 어떻게 해야해?", "response": "vscode에서 소스 제어 표시는 디스플레이동작이며, ctrl+shift+g으로 수행할 수 있습니다. 명령 ID는 workbench.view.scm입니다."}
+{"inputs": "vscode에서 디버그 표시를 하려면 어떻게 해야해?", "response": "vscode에서 디버그 표시는 디스플레이동작이며, ctrl+shift+d으로 수행할 수 있습니다. 명령 ID는 workbench.view.debug입니다."}
+{"inputs": "vscode에서 확장 표시를 하려면 어떻게 해야해?", "response": "vscode에서 확장 표시는 디스플레이동작이며, ctrl+shift+x으로 수행할 수 있습니다. 명령 ID는 workbench.view.extensions입니다."}
+{"inputs": "vscode에서 출력 보기를 하려면 어떻게 해야해?", "response": "vscode에서 출력 보기는 디스플레이동작이며, ctrl+shift+u으로 수행할 수 있습니다. 명령 ID는 workbench.action.output.toggleOutput입니다."}
+{"inputs": "vscode에서 명령창에서 빠른 열기를 하려면 어떻게 해야해?", "response": "vscode에서 명령창에서 빠른 열기는 디스플레이동작이며, ctrl+q으로 수행할 수 있습니다. 명령 ID는 workbench.action.quickOpenView입니다."}
+{"inputs": "vscode에서 새 프롬프트 열기를 하려면 어떻게 해야해?", "response": "vscode에서 새 프롬프트 열기는 디스플레이동작이며, ctrl+shift+c으로 수행할 수 있습니다. 명령 ID는 workbench.action.terminal.openNativeConsole입니다."}
+{"inputs": "vscode에서 마크다운 미리보기 토글을 하려면 어떻게 해야해?", "response": "vscode에서 마크다운 미리보기 토글은 디스플레이동작이며, ctrl+shift+v으로 수행할 수 있습니다. 명령 ID는 markdown.showPreview입니다."}
+{"inputs": "vscode에서 마크다운 측면에 미리보기를 하려면 어떻게 해야해?", "response": "vscode에서 마크다운 측면에 미리보기는 디스플레이동작이며, ctrl+kv으로 수행할 수 있습니다. 명령 ID는 markdown.showPreviewToSide입니다."}
+{"inputs": "vscode에서 통합 터미널 토글을 하려면 어떻게 해야해?", "response": "vscode에서 통합 터미널 토글은 디스플레이동작이며, ctrl+`으로 수행할 수 있습니다. 명령 ID는 workbench.action.terminal.toggleTerminal입니다."}
+{"inputs": "vscode에서 검색보기를 하려면 어떻게 해야해?", "response": "vscode에서 검색보기는 검색동작이며, ctrl+shift+f으로 수행할 수 있습니다. 명령 ID는 workbench.view.search입니다."}
+{"inputs": "vscode에서 파일에서 바꾸기를 하려면 어떻게 해야해?", "response": "vscode에서 파일에서 바꾸기는 검색동작이며, ctrl+shift+h으로 수행할 수 있습니다. 명령 ID는 workbench.action.replaceInFiles입니다."}
+{"inputs": "vscode에서 대 / 소문자 전환을 하려면 어떻게 해야해?", "response": "vscode에서 대 / 소문자 전환은 검색동작이며, alt+c으로 수행할 수 있습니다. 명령 ID는 toggleSearchCaseSensitive입니다."}
+{"inputs": "vscode에서 전체 단어 맞추기 토글을 하려면 어떻게 해야해?", "response": "vscode에서 전체 단어 맞추기 토글은 검색동작이며, alt+w으로 수행할 수 있습니다. 명령 ID는 toggleSearchWholeWord입니다."}
+{"inputs": "vscode에서 정규 표현식 사용 토글을 하려면 어떻게 해야해?", "response": "vscode에서 정규 표현식 사용 토글은 검색동작이며, alt+r으로 수행할 수 있습니다. 명령 ID는 toggleSearchRegex입니다."}
+{"inputs": "vscode에서 검색 세부 사항 전환을 하려면 어떻게 해야해?", "response": "vscode에서 검색 세부 사항 전환은 검색동작이며, ctrl+shift+j으로 수행할 수 있습니다. 명령 ID는 workbench.action.search.toggleQueryDetails입니다."}
+{"inputs": "vscode에서 검색 바꾸기 열기를 하려면 어떻게 해야해?", "response": "vscode에서 검색 바꾸기 열기는 검색동작이며, f4으로 수행할 수 있습니다. 명령 ID는 search.action.focusNextSearchResult입니다."}
+{"inputs": "vscode에서 이전 검색 바꾸기 검색 결과를 하려면 어떻게 해야해?", "response": "vscode에서 이전 검색 바꾸기 검색 결과는 검색동작이며, shift+f4으로 수행할 수 있습니다. 명령 ID는 search.action.focusPreviousSearchResult입니다."}
+{"inputs": "vscode에서 다음 검색 용어 표시를 하려면 어떻게 해야해?", "response": "vscode에서 다음 검색 용어 표시는 검색동작이며, alt+Down으로 수행할 수 있습니다. 명령 ID는 search.history.showNext입니다."}
+{"inputs": "vscode에서 이전 검색 용어 표시를 하려면 어떻게 해야해?", "response": "vscode에서 이전 검색 용어 표시는 검색동작이며, alt+Up으로 수행할 수 있습니다. 명령 ID는 search.history.showPrevious입니다."}
+{"inputs": "vscode에서 사용자 설정 열기를 하려면 어떻게 해야해?", "response": "vscode에서 사용자 설정 열기는 환경 설정동작이며, ctrl+,으로 수행할 수 있습니다. 명령 ID는 workbench.action.openGlobalSettings입니다."}
+{"inputs": "vscode에서 키보드 단축키 열기를 하려면 어떻게 해야해?", "response": "vscode에서 키보드 단축키 열기는 환경 설정동작이며, ctrl+k ctrl+s으로 수행할 수 있습니다. 명령 ID는 workbench.action.openGlobalKeybindings입니다."}
+{"inputs": "vscode에서 색상 테마 선택을 하려면 어떻게 해야해?", "response": "vscode에서 색상 테마 선택은 환경 설정동작이며, ctrl+k ctrl+t으로 수행할 수 있습니다. 명령 ID는 workbench.action.selectTheme입니다."}
+{"inputs": "vscode에서 중단점 토글을 하려면 어떻게 해야해?", "response": "vscode에서 중단점 토글은 디버그동작이며, f9으로 수행할 수 있습니다. 명령 ID는 editor.debug.action.toggleBreakpoint입니다."}
+{"inputs": "vscode에서 디버그 시작을 하려면 어떻게 해야해?", "response": "vscode에서 디버그 시작은 디버그동작이며, f5으로 수행할 수 있습니다. 명령 ID는 workbench.action.debug.start입니다."}
+{"inputs": "vscode에서 디버그 확인을 하려면 어떻게 해야해?", "response": "vscode에서 디버그 확인은 디버그동작이며, f5으로 수행할 수 있습니다. 명령 ID는 workbench.action.debug.continue입니다."}
+{"inputs": "vscode에서 시작을 하려면 어떻게 해야해?", "response": "vscode에서 시작은 디버그동작이며, ctrl+f5으로 수행할 수 있습니다. 명령 ID는 workbench.action.debug.run입니다."}
+{"inputs": "vscode에서 중지를 하려면 어떻게 해야해?", "response": "vscode에서 중지는 디버그동작이며, f6으로 수행할 수 있습니다. 명령 ID는 workbench.action.debug.pause입니다."}
+{"inputs": "vscode에서 들어가기를 하려면 어떻게 해야해?", "response": "vscode에서 들어가기는 디버그동작이며, f11으로 수행할 수 있습니다. 명령 ID는 workbench.action.debug.stepInto입니다."}
+{"inputs": "vscode에서 스텝 아웃을 하려면 어떻게 해야해?", "response": "vscode에서 스텝 아웃은 디버그동작이며, shift+f11으로 수행할 수 있습니다. 명령 ID는 workbench.action.debug.stepOut입니다."}
+{"inputs": "vscode에서 스텝 오버를 하려면 어떻게 해야해?", "response": "vscode에서 스텝 오버는 디버그동작이며, f10으로 수행할 수 있습니다. 명령 ID는 workbench.action.debug.stepOver입니다."}
+{"inputs": "vscode에서 중지를 하려면 어떻게 해야해?", "response": "vscode에서 중지는 디버그동작이며, shift+f5으로 수행할 수 있습니다. 명령 ID는 workbench.action.debug.stop입니다."}
+{"inputs": "vscode에서 호버 표시를 하려면 어떻게 해야해?", "response": "vscode에서 호버 표시는 디버그동작이며, ctrl+k ctrl+i으로 수행할 수 있습니다. 명령 ID는 editor.debug.action.showDebugHover입니다."}
+{"inputs": "vscode에서 빌드 작업 실행을 하려면 어떻게 해야해?", "response": "vscode에서 빌드 작업 실행은 작업주자 목록동작이며, ctrl+shift+b으로 수행할 수 있습니다. 명령 ID는 workbench.action.tasks.build입니다."}
