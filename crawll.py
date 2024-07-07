@@ -55,3 +55,20 @@ for key, item_list in data.items():
         new_text = re.sub(pattern=pattern, repl='', string=text).strip()
         item["명령"] = new_text
 
+# json파일 저장
+datasets_path = "./datasets/"
+jsonFile_name = "indata.json"
+with open(datasets_path+jsonFile_name, "w", encoding='utf-8') as json_file:
+    for key, item_list in data.items():
+        for item in item_list:
+            input_josa = "를"
+            response_josa = "는"
+            last_word_k = item['명령'][-1]
+            if (ord(last_word_k)-ord("가")) % 28 != 0:
+                input_josa = "을"
+                response_josa = "은"
+            inputs = f"vscode에서 {item['명령']}{input_josa} 하려면 어떻게 해야해?"
+            response = f"vscode에서 {item['명령']}{response_josa} {key}동작이며, {item['키']}으로 수행할 수 있습니다. 명령 ID는 {item['명령 ID']}입니다."
+            data = {"inputs": inputs, "response": response}
+            json.dump(data, json_file, ensure_ascii=False)
+            json_file.write("\n")
