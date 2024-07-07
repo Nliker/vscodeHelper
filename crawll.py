@@ -43,3 +43,15 @@ for h2 in h2_tags:
                 })
 
 
+# 문자열 전처리
+for key in data.copy().keys():
+    new_key = re.sub(r"[^\uAC00-\uD7A3\s]", "", key)
+    data[new_key] = data[key]
+    del data[key]
+for key, item_list in data.items():
+    for item in item_list:
+        text = item["명령"]
+        pattern = r"\([^)]*\)"
+        new_text = re.sub(pattern=pattern, repl='', string=text).strip()
+        item["명령"] = new_text
+
